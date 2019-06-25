@@ -1,3 +1,7 @@
+if (module.hot) {
+  module.hot.accept();
+}
+
 import './app.scss';
 
 const button = document.createElement('button');
